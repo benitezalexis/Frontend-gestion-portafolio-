@@ -1,4 +1,4 @@
-export var global={
+export var Global={
 	url:'http://localhost:3700/api/projects'
 };
 
