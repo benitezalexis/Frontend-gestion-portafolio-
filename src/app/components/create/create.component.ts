@@ -15,7 +15,7 @@ export class CreateComponent implements OnInit {
     constructor(
         private _projectService: ProjectService
       ) {
-          this.title="Crear projecto";
+          this.title="Crear proyecto";
           this.project=new Project('','','','',2021,'','');   
         }
 
