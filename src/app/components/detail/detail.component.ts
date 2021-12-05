@@ -38,6 +38,7 @@ export class DetailComponent implements OnInit {
       response=>{
       console.log(response.projects);
       this.project=response.projects;
+      console.log(this.project.image)
     },
     error=>{
       console.log(<any>error);
