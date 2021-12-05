@@ -265,3 +265,9 @@ form input[disabled]{
 	width: 100%;
 
 }
+
+
+.project a{
+	text-decoration: none;
+	color: black;
+}
